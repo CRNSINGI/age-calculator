@@ -28,6 +28,10 @@ function calculateAge(){
     if(d2 >= d1){
         d3 = d2 - d1;
     } else { 
-        
+
     }
+}
+
+function getDaysInMonth(year, month){
+    return new Date(year, month, 0).getDate();
 }
